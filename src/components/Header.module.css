@@ -1,0 +1,29 @@
+.header {
+  height: 12.5rem;
+  width: 100%;
+  background-color: var(--gray-700);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+
+  gap: .75rem;
+  padding-bottom: 1rem;
+}
+
+.header > div > h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: black;
+
+  color: var(--blue);
+}
+
+.header > div > h1 > span {
+  color: var(--purple-dark)
+}
